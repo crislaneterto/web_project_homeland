@@ -1,0 +1,142 @@
+@font-face {
+  font-family: "Inter";
+  src: url("./fonts/Inter-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("./fonts/Inter-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+.page-container {
+  width: 100%;
+  padding: 0 16px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+.logo {
+  width: 24px;
+  margin-bottom: 10px;
+}
+
+.logo-text {
+  font-size: 10px;
+  letter-spacing: 2px;
+  font-weight: 400px;
+  color: #666;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 700px;
+  line-height: 1.1;
+  margin-bottom: 20px;
+}
+
+.subtitle {
+  font-size: 16px;
+  font-weight: 400;
+  color: #999;
+  margin-bottom: 30px;
+  object-fit: cover;
+}
+
+.main-image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 24px 0;
+}
+
+.section-title {
+  font-size: 20px;
+  margin-bottom: 24px;
+  font-weight: 700px;
+  line-height: 1.2;
+}
+
+.description {
+  font-size: 14px;
+  font-weight: 400;
+  color: #bbb;
+  margin-bottom: 30px;
+}
+
+.description cite {
+  display: block;
+  margin-top: 10px;
+  font-style: normal;
+  font-weight: 700px;
+  color: #666;
+}
+
+.text-block p {
+  margin-top: 16px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+@media (min-width: 544px) {
+  .page-container {
+    padding: 0 40px;
+  }
+
+  .title {
+    font-size: 54px;
+  }
+
+  .subtitle {
+    font-size: 18px;
+  }
+
+  .section-title {
+    font-size: 28px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .page-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .title {
+    font-size: 72px;
+    line-height: 1.15;
+  }
+
+  .content {
+    max-width: 900px;
+    margin: 0 auto;
+    padding-top: 60px;
+  }
+}
+
+.footer {
+  text-align: center;
+  padding: 40px 0;
+  font-size: 12px;
+  color: #666;
+}
