@@ -1,0 +1,15 @@
+.header {
+  text-align: center;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+.logo {
+  width: 24px;
+  margin-bottom: 10px;
+}
+.logo-text {
+  font-size: 10px;
+  letter-spacing: 2px;
+  font-weight: 400px;
+  color: #666;
+}
