@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #1a1a1a;
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+@media (min-width: 544px) {
+  .page-container {
+    padding: 0 40px;
+  }
+}
+@media (min-width: 1024px) {
+  .page-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0;
+  }
+}

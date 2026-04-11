@@ -1,0 +1,36 @@
+.lead {
+  max-width: 984px;
+  margin: 0 auto;
+}
+.lead__title {
+  font-weight: 900;
+  font-style: Black;
+  font-size: 96px;
+  line-height: 100px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 90px;
+  display: flex;
+  justify-content: center;
+}
+
+.lead__subtitle {
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+  margin-top: 32px;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  max-width: 720px;
+  text-align: center;
+  letter-spacing: 0%;
+  line-height: 1.2;
+}
+.lead__image {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 64px;
+}
