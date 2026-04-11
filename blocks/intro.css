@@ -1,34 +1,44 @@
+.intro {
+  max-width: 984px;
+  margin: 92px auto 0;
+}
 .intro__title {
+  font-weight: 900px;
   font-size: 54px;
-  margin-bottom: 24px;
-  line-height: 1.07;
-  padding-top: 92px;
-  font-family: "Inter", Arial, Helvetica, sans-serif;
-  font-weight: 900;
+  line-height: 58px;
+  letter-spacing: 0%;
+  max-width: 830px;
 }
 
 .intro__description {
-  font-size: 24px;
+  max-width: 738px;
   font-weight: 400;
-  color: white;
-  margin-bottom: 30px;
-  line-height: 1.41;
-}
-
-.intro__author cite {
-  display: flex;
-  justify-content: flex-end;
-  margin-top: 10px;
   font-size: 24px;
-  font-weight: 400px;
-  font-family: "Inter", Arial, Helvetica, sans-serif;
-  line-height: 1.41;
-  color: #ffffff;
+  line-height: 34px;
+  letter-spacing: 0%;
+  margin-top: 40px;
 }
 
-.intro__text p {
-  margin-top: 16px;
+.intro__author {
+  max-width: 732px;
+  display: block;
+  text-align: right;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  letter-spacing: 0%;
+}
+
+.intro__text {
+  max-width: 722px;
+  font-weight: 400;
   font-size: 16px;
-  font-weight: 400px;
   line-height: 163%;
+  letter-spacing: 0%;
+  text-align: start;
+  margin-top: 76px;
+}
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 320px) {
 }
