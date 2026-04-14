@@ -35,7 +35,7 @@ Seções da Página
 
 Como Visualizar
 
-----------colococar aqui o link do github pages---------
+https://crislaneterto.github.io/web_project_homeland/
 
 ✒️ Autor
 
