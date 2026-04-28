@@ -37,6 +37,7 @@
   letter-spacing: 0%;
   text-align: start;
   margin-top: 76px;
+  margin-bottom: 38px;
 }
 @media screen and (max-width: 1024px) {
   .intro {
