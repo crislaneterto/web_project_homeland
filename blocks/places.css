@@ -1,15 +1,6 @@
 .places {
   margin-top: 92px;
 }
-.place {
-  display: grid;
-  grid-template-columns: 460px 1fr;
-  grid-template-rows: auto 460px auto;
-  grid-template-areas: "title artist" "image text" "button text";
-  max-width: 984px;
-  margin: 0 auto;
-  gap: 48px 40px;
-}
 .places__title {
   grid-area: title;
   font-size: 72px;
@@ -79,13 +70,7 @@
   .places {
     margin-top: 88px;
   }
-  .place {
-    display: grid;
-    grid-template-columns: 340px 1fr;
-    grid-template-rows: 1fr 340px;
-    max-width: 720px;
-    margin-top: 62px;
-  }
+
   .places__title {
     font-size: 42px;
   }
@@ -98,14 +83,7 @@
     margin: 62px auto;
     max-width: 320px;
   }
-  .place {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto auto 320px auto auto;
-    max-width: 320px;
-    margin-top: 50px;
-    grid-template-areas: "title" "artist" "image" "text" "button";
-  }
+
   .places__image {
     max-width: 320px;
   }
