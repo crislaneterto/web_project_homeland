@@ -14,13 +14,13 @@
   grid-area: artist;
   max-width: 456px;
 }
-.places__website__heading {
+.places__website--heading {
   font-family: "Inter";
   font-weight: 400;
   font-size: 12px;
   line-height: 100%;
 }
-.places__website__artist {
+.places__website--artist {
   font-family: "Inter";
   font-weight: 400;
   font-size: 18px;
