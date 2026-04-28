@@ -73,7 +73,7 @@
   );
 }
 .places__image:hover {
-  background: #00000080;
+  opacity: 0.5;
 }
 @media screen and (max-width: 1024px) {
   .places {
